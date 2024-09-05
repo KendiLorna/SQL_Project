@@ -1,4 +1,4 @@
-# Water Access Survey
+# Maji Ndogo Water Access Survey
 ## INTRODUCTION
 
 Maji Ndogo is an AI-generated African country facing a water crisis due to persistent corrupt regimes. The country has a new president keen on reversing past governments' damage and restoring Maji Ndogo to its former glory. Maji Ndogo has a population of 28 million people living in the five provinces of Maji Ndogo namely Sokoto, Amanzi, Akatsi, Hawassa, and Kilimani, which between them have a total of 31 towns both urban and rural.
@@ -90,7 +90,7 @@ WHERE name = 'Maji Ndogo';
 ```
 
 ```SQL
---Distinct types of water sources
+--5 distinct types of water sources
 SELECT 
 DISTINCT type_of_water_source
 FROM md_water_services.water_source;
