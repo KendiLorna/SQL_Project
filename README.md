@@ -1,17 +1,17 @@
-# Maji Ndogo Water Access Survey
-## INTRODUCTION
+## **Maji Ndogo Water Access Survey**
+### **INTRODUCTION**
 
 Maji Ndogo is an AI-generated African country facing a water crisis due to persistent corrupt regimes. The country has a new president keen on reversing past governments' damage and restoring Maji Ndogo to its former glory. Maji Ndogo has a population of 28 million people living in the five provinces of Maji Ndogo namely Sokoto, Amanzi, Akatsi, Hawassa, and Kilimani, which between them have a total of 31 towns both urban and rural.
 
-## USER STORY
+### **USER STORY**
 
 The president set up a government agency to investigate the water sources in the country and they recorded their findings for 924 days( 2 years and 5 months). 
 She then proceeded to hire a team of data analysts to investigate the data and provide insights.
-The results will help decide on resource allocation and prioritization of projects
+The results will help decide on resource allocation and prioritization of projects.
 
-## OBJECTIVE
+### **OBJECTIVE**
 
-### Part one objective:
+#### Part one objective:
 
 1. Get familiar with the data
 2. Analyze the water sources
@@ -19,17 +19,17 @@ The results will help decide on resource allocation and prioritization of projec
 4. Assess the quality of water sources
 5. Investigate any pollution issues
 
-### Part two objective:
+#### Part two objective:
 
 1. To identify the water sources people use and determine both the total and average number of users for each source.
 
 2. Examining the duration citizens spend in queues to access water.
 
-### Part three objective:
+#### Part three objective:
 
 1. Addressing data integrity, accuracy,  and reliability of the data.
 
-### Part four objective:
+#### Part four objective:
 
 1. Shaping the raw data into meaningful views to provide essential information to decision-makers.
 
@@ -37,27 +37,27 @@ The results will help decide on resource allocation and prioritization of projec
 
 3. To create a table where repair teams have the information they need to fix, upgrade, and repair water sources and can update progress.
 
-## DATA SOURCE
+### **DATA SOURCE**
 
 ALX Africa.
 
-A database "md_water_services.csv" file was provided by ALX Africa for the project.
+A database "md_water_services" SQL text file was provided by ALX Africa for the project.
 
-## TOOLS
+### **TOOLS**
 
 - MySQL - Data cleaning and analysis.
 
-## METHODOLOGY
+### **METHODOLOGY**
 
 The project is in four parts with progressive advancement into more complex insights at the end of every part.
-### 1. Data Cleaning
+#### 1. Data Cleaning
 In the initial data preparation phase, the following tasks were performed:
 - Data loading and inspection.
 - Updating incorrect values.
 - Data validation.
 - Data cleaning and formatting.
 
-### 2. Exploratory Data Analysis
+#### 2. Exploratory Data Analysis
 
 The following were the questions of concern:
 
@@ -68,7 +68,7 @@ The following were the questions of concern:
 - Which provinces and towns are most in need of improvement?
 
 - The number of water sources that need improvement.
-### 3. Data Analysis and Insights
+#### 3. Data Analysis and Insights
 
 The insights are progressive and divided into four parts.
 
@@ -150,7 +150,7 @@ OR (biological > 0.01 AND results = 'Clean');
 
 ```
 
-### Maji Ndogo Part 2 Insights
+#### Maji Ndogo Part 2 Insights
 
 1. Most water sources in Maji Ndogo are in rural parts(60%).
 
@@ -447,7 +447,7 @@ ORDER BY Improvements DESC;
 
 ````
 
-## RECOMMENDATION 
+### **RECOMMENDATION** 
 
 1. For communities using rivers, trucks can be dispatched to those regions to provide water temporarily in the short term, while crews are sent out to drill for wells, providing a more permanent solution. Sokoto has the largest population using river sources so it should be prioritized.
 2. For communities using wells, filters can be installed to purify the water. For wells with biological contamination, UV filters can be used to kill microorganisms, and for polluted wells, reverse osmosis filters. In the long term, the causes of pollution need to be determined. Kilimani is the province that has the highest number of contaminated wells so filter installation should begin there.
